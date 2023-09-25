@@ -17,10 +17,11 @@ body {
 }
 
 .nav {
+  flex-basis: 12rem;
   font-size: 0.8rem;
   font-weight: 400;
   white-space: nowrap;
-  padding: 2rem 7rem 0 2rem;
+  padding: 2rem 4rem 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -40,6 +41,7 @@ body {
 .nav-item {
   opacity: 0.8;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .nav-icon {
@@ -48,7 +50,8 @@ body {
   margin-right: 0.5rem;
 }
 
-.nav-item-selected {
+.nav-item-selected,
+.nav-item:hover {
   font-weight: 700;
   opacity: 1;
 }
