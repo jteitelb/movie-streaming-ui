@@ -91,3 +91,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.trending-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.trending-item {
+  width: 13.5rem;
+  min-height: 16rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
