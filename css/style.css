@@ -103,4 +103,24 @@ body {
   min-height: 16rem;
   border: 1px solid white;
   border-radius: 1rem;
+  background-image: url("../images/toronto.jfif");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.trending-item-info {
+  position: absolute;
+  bottom: 0;
+  width: 13.5rem;
+  padding: 0.8rem 0rem 2.6rem 0.8rem;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.842);
+  color: black;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.trending-item-tags {
+  font-weight: 500;
 }
