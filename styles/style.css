@@ -92,14 +92,23 @@ body {
   align-items: center;
 }
 
+.section {
+  margin: 0.8rem 1.5rem;
+}
+
+.section-title {
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
 .trending-container {
   display: flex;
   gap: 1rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .trending-item {
-  width: 13.5rem;
+  min-width: 13.5rem;
   min-height: 16rem;
   border: 1px solid white;
   border-radius: 1rem;
