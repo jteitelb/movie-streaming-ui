@@ -85,9 +85,10 @@ body {
 
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
 
   width: 100%;
-  padding: 10rem 0;
+  min-height: 44%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,10 +117,26 @@ body {
   min-height: 16rem;
   border: 1px solid var(--dim-text);
   border-radius: 1rem;
-  background-image: url("../assets/toronto.jfif");
+  background-image: url("../assets/trending/tokyo_train.jfif");
   background-size: cover;
+  background-position: center;
   position: relative;
   overflow: hidden;
+}
+
+.tokyo-train {
+  background-image: url("../assets/trending/tokyo_train.jfif");
+}
+
+.moonfall {
+  background-image: url("../assets/trending/moonfall.png");
+}
+
+.life-in-paris {
+  background-image: url("../assets/trending/life_in_paris.jfif");
+}
+.house-of-gucci {
+  background-image: url("../assets/trending/house_of_gucci.jfif");
 }
 
 .trending-item-info {
