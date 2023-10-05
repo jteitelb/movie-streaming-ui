@@ -124,6 +124,25 @@ body {
   overflow: hidden;
 }
 
+.favourite-button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 8.296px;
+  border: 0.593px solid #fff;
+  background: linear-gradient(
+    99deg,
+    #fff 3.36%,
+    rgba(255, 255, 255, 0) 238.16%
+  );
+  backdrop-filter: blur(5.925926208496094px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tokyo-train {
   background-image: url("../assets/trending/tokyo_train.jfif");
 }
