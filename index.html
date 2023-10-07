@@ -10,63 +10,105 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Watch</title>
-    <link rel="icon" type="image/x-icon" href="images/coffee.svg" />
+    <link rel="icon" type="image/x-icon" href="assets/coffee.svg" />
   </head>
   <body>
     <nav class="nav">
       <div class="nav-logo">
-        <img class="nav-icon" src="images/coffee.svg" />
+        <img class="nav-icon" src="assets/coffee.svg" />
         <h1 class="nav-logo-text">WATCH</h1>
       </div>
       <div class="nav-section movie-categories">
         <div class="nav-item nav-item-selected">
-          <img class="nav-icon" src="images/nav-icons/film.svg" />Home
+          <img class="nav-icon" src="assets/nav-icons/film.svg" />Home
         </div>
         <div class="nav-item">
           <img
             class="nav-icon"
             class="favourites"
-            src="images/nav-icons/heart.svg"
+            src="assets/nav-icons/heart.svg"
           />Favourites
         </div>
         <div class="nav-item">
           <img
             class="nav-icon"
-            src="images/nav-icons/trending-up.svg"
+            src="assets/nav-icons/trending-up.svg"
           />Trending
         </div>
         <div class="nav-item">
-          <img class="nav-icon" src="images/nav-icons/calendar.svg" />Coming
+          <img class="nav-icon" src="assets/nav-icons/calendar.svg" />Coming
           Soon
         </div>
       </div>
       <div class="nav-section network">
         <div class="nav-item">
-          <img class="nav-icon" src="images/nav-icons/users.svg" />Community
+          <img class="nav-icon" src="assets/nav-icons/users.svg" />Community
         </div>
         <div class="nav-item">
           <img
             class="nav-icon"
-            src="images/nav-icons/message-circle.svg"
+            src="assets/nav-icons/message-circle.svg"
           />Social
         </div>
       </div>
       <div class="nav-section control">
         <div class="nav-item">
-          <img class="nav-icon" src="images/nav-icons/sliders.svg" />Settings
+          <img class="nav-icon" src="assets/nav-icons/sliders.svg" />Settings
         </div>
         <div class="nav-item">
-          <img class="nav-icon" src="images/nav-icons/log-out.svg" />Logout
+          <img class="nav-icon" src="assets/nav-icons/log-out.svg" />Logout
         </div>
       </div>
     </nav>
     <main class="main">
       <div class="hero"></div>
       <div class="suggestions">
-        <div class="trending"></div>
-        <div class="continue-watching"></div>
+        <div class="section">
+          <h3 class="section-title">Trending</h3>
+          <div class="trending-container">
+            <div class="trending-item tokyo-train">
+              <div class="favourite-button">
+                <img src="./assets/heart_filled.svg" />
+              </div>
+              <div class="trending-item-info">
+                <h4 class="trending-item-title">Tokyo Train</h4>
+                <h5 class="trending-item-tags">2022 | Action Comedy</h5>
+              </div>
+            </div>
+            <div class="trending-item moonfall">
+              <div class="favourite-button">
+                <img src="./assets/heart_filled.svg" />
+              </div>
+              <div class="trending-item-info">
+                <h4 class="trending-item-title">Moonfall</h4>
+                <h5 class="trending-item-tags">2022 | Sci-fi</h5>
+              </div>
+            </div>
+            <div class="trending-item life-in-paris">
+              <div class="favourite-button">
+                <img src="./assets/heart_outline.svg" />
+              </div>
+              <div class="trending-item-info">
+                <h4 class="trending-item-title">Life in Paris</h4>
+                <h5 class="trending-item-tags">2023 | Documentary series</h5>
+              </div>
+            </div>
+            <div class="trending-item house-of-gucci">
+              <div class="favourite-button">
+                <img src="./assets/heart_outline.svg" />
+              </div>
+              <div class="trending-item-info">
+                <h4 class="trending-item-title">House of Gucci</h4>
+                <h5 class="trending-item-tags">2021 | Drama</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h3 class="section-title">Continue watching</h3>
+        </div>
       </div>
     </main>
   </body>
